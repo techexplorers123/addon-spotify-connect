@@ -34,8 +34,7 @@ if bashio::config.true 'oauth'; then
 fi
 
 # Save writes
-options+=(--disable-audio-cache)
-options+=(--system-cache /config)
+options+=(-c /config)
 
 # Are we running in debug mode?
 if bashio::debug; then
