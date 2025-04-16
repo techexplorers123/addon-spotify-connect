@@ -14,6 +14,8 @@ audio: true
 init: false
 map:
   - addon_config:rw
+ports:
+  5588: 5588
 options:
   name: Home Assistant
   bitrate: 160
