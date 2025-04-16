@@ -30,12 +30,12 @@ fi
 
 # oAuth
 if bashio::config.true 'oauth'; then
-  options+=(--autoplay on)
+  options+=(--enable-oauth)
 fi
 
 # Save writes
 options+=(--disable-audio-cache)
-options+=(--system-cache /addon_configs)
+options+=(--system-cache /addon_config)
 
 # Are we running in debug mode?
 if bashio::debug; then
