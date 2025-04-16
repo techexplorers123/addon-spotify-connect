@@ -9,7 +9,7 @@ arch:
   - aarch64
   - amd64
   - armv7
-host-networking: true
+host-network: true
 audio: true
 init: false
 map:
