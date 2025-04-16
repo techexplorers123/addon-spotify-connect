@@ -9,13 +9,11 @@ arch:
   - aarch64
   - amd64
   - armv7
-
+host-networking: true
 audio: true
 init: false
 map:
   - addon_config:rw
-ports:
-  5588/tcp: 5588
 options:
   name: Home Assistant
   bitrate: 160
