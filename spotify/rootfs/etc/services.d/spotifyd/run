@@ -35,7 +35,7 @@ fi
 
 # Save writes
 options+=(--disable-audio-cache)
-options+=(--system-cache /cache)
+options+=(--system-cache /addon_configs)
 
 # Are we running in debug mode?
 if bashio::debug; then
