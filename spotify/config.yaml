@@ -13,7 +13,7 @@ host_network: true
 audio: true
 init: false
 map:
-  - addon_configs:rw
+  - addon_config:rw
 options:
   name: Home Assistant
   bitrate: 160
